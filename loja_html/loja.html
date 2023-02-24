@@ -3,18 +3,21 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>-Loja do Dodoca-</title>
+<script src="../produto.jss/produto.js"></script>
+<title>Loja do Dodoca</title>
 </head>
 <body style="background-image: url('du.png'); background-repeat: no-repeat; background-position: 30% 4%; background-size: cover">
 
-<h1 style="text-align: center; font-size: 40px; font-family: lucida sans;">Loja do Dodoca</h1>
+<h1 style="text-align: center; font-size: 50px; font-family: lucida sans;">Loja do Dodoca</h1>
 
-<form>
+<h2 style="text-align: center; font-size: 20px; font-family: arial;">Faça Seu Login Para Continuar</h2>
+
+<form name="login" method="get" action="produto.html" onsubmit="return validacao()">
 
 <p>
 <center>
 <label for="l_e-mail" style="font-size:x-large; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">e-mail</label>
-<input type="e-mail" id="e-mail" name="e-mail" size="50px" placeholder="name@example.com">
+<input type="e-mail" id="email" name="email" size="50px" placeholder="name@example.com">
 </center>
 
 </p>
@@ -29,17 +32,15 @@
 
 <p>
 <center>
-<input type="button" name="entrar" value="Entrar">
+<input type="submit" name="entrar" id="entrar" value="Entrar">
 <input type="reset" name="limpar" value="Limpar">
 </center>
-
 </p>
 
 
-
-
-
 </form>
+
+
 
 </body>
 </html>
