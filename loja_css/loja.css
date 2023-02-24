@@ -31,7 +31,7 @@ body{
 	padding: 20px 15px;
 	display:flex;
 	flex-direction: column;
-	box-shadow: 0.5px 10px #e6e6e6;
+	box-shadow: 0.5px 10px #a75656;
 	transition:0.3s ease-in-out;
 	margin-top: 5%;
 }
